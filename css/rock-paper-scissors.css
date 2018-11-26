@@ -1,0 +1,43 @@
+
+	jumbotron {
+  background-image:url("https://thumbs.gfycat.com/RegalAssuredGossamerwingedbutterfly-size_restricted.gif");
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid #ff6a00
+}
+.jumbotron .container {
+  position:relative;
+  top:30px;
+}
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 58px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 48px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 48px;
+	padding-top: 30px;
+}
+
+button {
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.button-container {
+	padding-top: 30px;
+	text-align: center;
+background-color: orange;
+}
