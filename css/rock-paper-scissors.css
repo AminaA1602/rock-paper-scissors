@@ -35,10 +35,12 @@ button {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+
 }
-.button-container {
+.button-container p {
 	padding-top: 30px;
 	margin-bottom: 30px;
+	display: block;
 	text-align: center;
 background-color:lightblue;
 }
