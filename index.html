@@ -18,13 +18,17 @@
 
     <section>
 
-      <div class="button-container">
+      <div class="button-container container d-flex justify content-center">
+        <h2>Current move </h2>
+        <div class="row">
+          <div class="col-4">
+        <button id="rock" value="rock"> <img src="./images/rock.jpg" alt="Rock"></button></div>
         <div class="col-md-4">
-        <h2>Current move</h2>
-        <button id="rock" value="rock"> <img src="./images/rock.jpg" alt="Rock"></button>
-        <button id="paper" value="paper"> <img src="./images/paper.jpg" alt="Paper"></button>
-        <button id="scissors" value="scissors"> <img src="./images/scissors.jpg" alt="Scissors"></button>
+          <button id="paper" value="paper"> <img src="./images/paper.jpg" alt="Paper"></button></div>
+        <div class="col-md-4">
+          <button id="scissors" value="scissors"> <img src="./images/scissors.jpg" alt="Scissors"></button></div>
 
+</div>
 </div>
 
         <h3>Verdict: <span id="verdict"></span></h3>
@@ -39,11 +43,10 @@
 
         <div class="pink-container">
           <div class="row-pb-8">
-            <img class="img-fluid" src="https://gfycat.com/gifs/detail/whichdisastrousamurratsnake" alt="images of Rock-Paper-Scissors">
+            <img class="img-fluid" src="https://thumbs.gfycat.com/RegalAssuredGossamerwingedbutterfly-size_restricted.gif" alt="images of Rock-Paper-Scissors">
           </div>
-</div>
-        </div>
 
+        </div>
     </section>
 
     <script
@@ -52,5 +55,5 @@
       crossorigin="anonymous"></script>
     <script src="js/engine.js"></script>
 
-    </body>
-    </html>
+</body>
+</html>

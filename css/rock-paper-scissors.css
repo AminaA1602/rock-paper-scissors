@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
-		margin-left: auto;
-		margin-right: auto;
+		/* margin-left: auto;
+		margin-right: auto; */
 }
 
 	.jumbotron {
@@ -13,7 +13,6 @@ body {
 h1 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 58px;
-	text-align: center;
 	padding-top: 40px;
 }
 
@@ -21,7 +20,6 @@ h2 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 48px;
 	padding-top: 30px;
-	text-align: center;
 }
 
 h3 {
@@ -38,11 +36,19 @@ button {
 	display: block;
 	text-align: center;
 }
-.button-container p {
+.button-container {
 	padding-top: 30px;
 	margin-bottom: 30px;
 	text-align: center;
 background-color:lightblue;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+text-align: center;
 }
 
 .pink-container {
@@ -50,4 +56,8 @@ background-color:lightblue;
 	height: 100px;
 	width:200px;
 	text-align: center;
+}
+
+.row {
+	display:inline-block;
 }
