@@ -19,7 +19,7 @@
     <section>
 
       <h2>Current move</h2>
-      <div class="button-container container d-flex justify content-center">
+      <div class="button-container container">
         <div class="row">
           <div class="col-4">
         <button id="rock" value="rock"> <img src="./images/rock.jpg" alt="Rock"></button></div>
@@ -27,28 +27,19 @@
           <button id="paper" value="paper"> <img src="./images/paper.jpg" alt="Paper"></button></div>
         <div class="col-md-4">
           <button id="scissors" value="scissors"> <img src="./images/scissors.jpg" alt="Scissors"></button></div>
-
 </div>
 </div>
 </section>
 
-
-
 <section>
-
-      <h3> Result <span id="Result"></span></h3>
-      <div class="button-container content-center">
-
-      <p>You: <span id="play_you"></span></p>
-
+  <div class="button-container-table">
+    <h3> Result <span id="Result"></span></h3>
+    <p>You: <span id="play_you"></span></p>
     <p>Machine: <span id="play_machine"></span></p>
     </div>
 
-
-
-
-        <h3> Result <span id="Result"></span></h3>
-        <div class="button-container content-center">
+        <div class="button-container-scoresheet">
+        <h3> Score Sheet <span id="score-sheet"></span></h3>
           <table class="your-moves">
             <thead>
               <tr>
@@ -56,6 +47,7 @@
                 <th>LOST</th>
                 <th>DRAW</th>
                 <th>PLAYED</th>
+              </tr>
               <tbody>
                 <tr>
                 <td><p>Won:<span id="game_won">0</span></p></td>
@@ -65,7 +57,7 @@
               </tr>
         </tbody>
       </table>
-
+    </div>
     </section>
 
     <script

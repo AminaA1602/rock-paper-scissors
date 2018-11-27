@@ -50,10 +50,15 @@ button {
   background-color:lightblue;
 }
 
-.container {
+.button-container-table {
   text-align: center;
 }
 
-.row {
-text-align: center;
+.button-container-scoresheet {
+  text-align: center;
+}
+
+
+.your-moves {
+  text-align: center;
 }
